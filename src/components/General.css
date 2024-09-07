@@ -1,0 +1,66 @@
+.backgroundImageStyle {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; /* Adjust this value based on your navbar's height */
+}
+
+@media (max-width: 600px) {
+  .backgroundImageStyle {
+    padding-top: 80px; /* Adjust for mobile view if needed */
+  }
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top of content */
+}
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .right-section {
+    text-align: justify;
+    padding: 1rem;
+  }
+  
+  .custom-h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  
+  .paragraph-text {
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 5px;
+    line-height: 1.6;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 600px) {
+    .custom-h1 {
+      font-size: 1.5rem;
+    }
+  
+    .paragraph-text {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .section {
+    scroll-margin-top: 50rem; /* Adjust this value to match the height of your navbar */
+  }
+
+  
