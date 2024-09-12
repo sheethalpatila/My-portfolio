@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Intro from './components/Intro'; // Updated to match the section
 import Experience from './components/Experience';
+import WhatIDo from './components/WhatIDo';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,12 +25,15 @@ const App = () => {
         
         {/* Home Section */}
         <Intro darkMode={darkMode} />
+
+        {/* Skills Section */}
+        <WhatIDo darkMode={darkMode}/>
         
         {/* Skills Section */}
-        <Skills />
+        <Skills darkMode={darkMode}/>
         
         {/* Projects Section */}
-        <Projects />
+        <Projects  darkMode={darkMode}/>
         
         {/* Contact Section */}
         <Experience darkMode={darkMode} />
