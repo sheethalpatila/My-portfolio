@@ -10,40 +10,36 @@ const Intro = ({ darkMode }) => {
         <section
             id="intro"
             style={{
-                backgroundImage: `url(${darkMode ? `${process.env.PUBLIC_URL}/white.png` : `${process.env.PUBLIC_URL}/blackbg.png`})`,
-                color: darkMode ? "#000000" : "#ffffff",
+                backgroundImage: `url(${darkMode ? `${process.env.PUBLIC_URL}/bg1.jpg` : `${process.env.PUBLIC_URL}/blackbg.png`})`,
+                color: darkMode ? "#d1d1d1" : "#d1d1d1",
             }}
             className="backgroundImageStyle section"
         >
             <Container>
-                <Grid container  >
+                <Grid container>
                     {/* Left Side: Centered Text */}
                     <Grid item xs={12} sm={6} className="left-section">
-                        <ol>
-                            <li><h1 className="custom-h1">Sheethal Patil A</h1></li>
-                            <li><p>MERN Full-Stack Developer</p></li>
-                        </ol>
+                        <ul>
+                        <Typography variant="h3" component="h3"  >
+                            {t('name')}
+                        </Typography>
+                        <Typography variant="subtitle1" style={{ fontWeight: '600' }} className="text-right">
+                            {t('profession')}
+                        </Typography>
+                        </ul>
                     </Grid>
 
                     {/* Right Side: Justified Paragraph Text */}
-                    <Grid item xs={12} sm={6} className="right-section">
-                        <p className="paragraph-text" >
-                            Detail-oriented and proficient Full-Stack Developer with 3.5 years of experience in developing efficient and scalable web
-                            applications using modern technologies across multiple frameworks. Demonstrated ability to lead projects through the full
-                            nnovative projects.
-                        </p>
-                        <p className="paragraph-text" >
-                            Detail-oriented and proficient Full-Stack Developer with 3.5 years of experience in developing efficient and scalable web
-                            applications using modern technologies across multiple frameworks. Demonstrated ability to lead projects through the full
-                            software development lifecycle, from requirement gathering to deployment and maintenance. Skilled in collaborating with
-                            cross-functional teams to deliver user-centric solutions and improve system performance. Seeking to leverage extensive
-                            experience in front-end and back-end development to contribute to innovative projects.
-                        </p>
-                        <p className="paragraph-text" >
-                            Currently working as a Full-Stack Developer at Smart Controls India Limited, I specialize in developing and maintaining web
-                            applications using the MERN stack (MongoDB, Express.js, React, Node.js).I work closely with my team to design and
-                            
-                        </p>
+                    <Grid item xs={12}  sm={6} className="right-section">
+                        <Typography variant="body1" style={{ fontWeight: '600' }}>
+                            {t('intro1')}
+                        </Typography>
+                        <Typography variant="body1" style={{ fontWeight: '600' }}>
+                            {t('intro2')}
+                        </Typography>
+                        <Typography variant="body1" style={{ fontWeight: '600' }}>
+                            {t('intro3')}
+                        </Typography>
                     </Grid>
                 </Grid>
             </Container>
