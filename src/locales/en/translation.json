@@ -1,10 +1,131 @@
 {
+    "name":"Sheethal A Patil",
     "welcome": "Welcome to My Portfolio",
     "intro": "Intro",
-    "profession": "I am a MERN Fullstack Developer",
+    "profession": "MERN Fullstack Developer",
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact",
-    "experience": "Experience"
+    "experienceTitle": "Experience",
+    "whatIDo": "What I Do",
+    "gitToolTip": "Open GitHub Profile",
+    "linkedInToolTip": "Open LinkedIn Profile",
+    "emailToolTip": "Email Id",
+    "pnToolTip": "Phone Number",
+    "dmToolTip": "View in Dark Mode",
+    "lmToolTip": "View in Light Mode",
+    "intro1": "Hi, I am Sheethal from Bengaluru. I grew up in a small town and moved to the Silicon City of India with a dream of working in the software industry, gaining financial freedom for my family, and earning the title of Software Engineer. Like many, I soon realized it was not as easy as I thought. Thankfully, I found two amazing friends during college, and together, we navigated the challenges of becoming full-stack developers. A big thanks to the incredible YouTubers like Hitesh Choudhary, Code with Harry, and Akshay Saini, who taught students like me when expensive courses were out of reach.",
+    "intro2": "Now, after 3.5 years of facing clients, tackling new requirements, and debugging endless bugs, I can confidently call myself a software engineer. I’ve learned that no matter how tough the problem, I can solve it. If a new feature is needed, I’ll develop it; if bugs arise, I’ll fix them until they’re gone.",
+    "intro3": "Currently, I work as a Full-Stack Developer at Smart Controls India Limited, where I design, develop, and maintain scalable web and mobile applications using the MERN stack (MongoDB, Express.js, React, Node.js). With a track record of leading projects from concept to deployment, I collaborate with cross-functional teams to deliver user-centric solutions that optimize performance.",
+    "projectTitel": "Project Title",
+    "builtWith": "Built with",
+    "link": "Link",
+    "apiTestingTool": "API Testing tool",
+    "year": "Year",
+      "webDevelopmentTitle": "Web Development",
+      "webDevelopmentDescription": "Building interactive and responsive websites using modern web technologies.",
+      "webDevelopmentPoints": [
+        "React for dynamic UIs",
+        "HTML, CSS, JavaScript",
+        "Building HOCs, Configurations"
+      ],
+      "backendDevelopmentTitle": "Backend Development",
+      "backendDevelopmentDescription": "Creating robust server-side applications and APIs.",
+      "backendDevelopmentPoints": [
+        "Node.js & Express.js for server-side logic",
+        "MongoDB for database management",
+        "API design and integration"
+      ],
+      "deploymentTitle": "Deployment and Maintenance",
+      "deploymentDescription": "Managing deployment processes and maintaining application performance.",
+      "deploymentPoints": [
+        "Deployments using Git, PM2, Nginx services",
+        "Performance monitoring"
+      ],
+      "onSiteVisitTitle": "On-Site Visit for Server Redundancy and Tests",
+      "onSiteVisitDescription": "Conducting on-site visits for server management and redundancy planning.",
+      "onSiteVisitPoints": [
+        "Server redundancy strategies",
+        "On-site troubleshooting",
+        "Deployment and configuration"
+      ],
+      "productDesignTitle": "Product Design and Diversity in Tech",
+      "productDesignDescription": "Designing products with a focus on functionality and user needs.",
+      "productDesignPoints": [
+        "User-centered design",
+        "Prototyping and testing",
+        "Design iteration and feedback",
+        "Inclusive design practices",
+        "Diverse tech teams"
+      ],
+      "clientManagementTitle": "Client Management",
+      "clientManagementDescription": "Handling client relationships, managing expectations, and delivering high-quality solutions tailored to client needs.",
+      "clientManagementPoints": [
+        "Regular communication and progress updates",
+        "Managing feedback and revisions effectively",
+        "Delivering solutions within deadlines",
+        "Ensuring client satisfaction and long-term partnerships"
+      ],
+        "development": "Development",
+        "tools": "Tools",
+        "knowledge": "Knowledge",
+        "HTML": "HTML",
+        "CSS": "CSS",
+        "JavaScript": "JavaScript",
+        "React": "React",
+        "MongoDB": "MongoDB",
+        "Node": "Node",
+        "React Native": "React Native",
+        "UI Development": "UI Development",
+        "Database": "Database",
+        "API Development": "API Development",
+        "Git (Github, Gitlab, GitDesktop)": "Git (Github, Gitlab, GitDesktop)",
+        "Postman": "Postman",
+        "NoSQLBooster": "NoSQLBooster",
+        "MongoDB Compass": "MongoDB Compass",
+        "VS-Code": "VS-Code",
+        "PM2, Nginx": "PM2, Nginx",
+        "I18next, Theme management": "I18next, Theme management",
+        "Eslint, Jest, Coverage": "Eslint, Jest, Coverage",
+        "Tailwind, Material UI": "Tailwind, Material UI",
+        "SEO": "SEO",
+        "RxDb, PgAdmin, GraphQL": "RxDb, PgAdmin, GraphQL",  
+          "API Testing Tool": "API Testing Tool",
+          "JSON Comparator": "JSON Comparator",
+          "Portfolio": "Portfolio",
+          "Company About Page": "Company About Page",
+          "T-shirts E-commerce": "T-shirts E-commerce",
+          "Material-UI": "Material-UI",
+          "Tailwind CSS": "Tailwind CSS",
+          "Bootstrap": "Bootstrap",
+          "JWT": "JWT", 
+            "experience": {
+                "1": {
+                    "title": "MERN Full-Stack Developer",
+                    "company": "Smart Controls India Ltd, Bengaluru",
+                    "description": "I specialize in developing and maintaining MERN stack (MongoDB, Express.js, React, Node.js) web applications. My role includes designing and implementing dynamic user interfaces, managing client requirements, and delivering tailored solutions. I coordinate with my team for code management, documentation, and on-site deployments. I also use Jest and React Testing Library for testing, and perform server redundancy tests to ensure high availability and reliability.",
+                    "year": "10-2022 - PRESENT"
+                },
+                "2": {
+                    "title": "MERN Full-Stack Developer",
+                    "company": "Axxonet System Solutions, Bengaluru",
+                    "description": "Designed and prototyped microservices-based web and mobile applications. Collaborated with UX designers and developers to refine products. Independently developed multiple apps, integrated new features and patches, and documented code. Played a key role in gathering requirements and translating them into technical documentation and implementations.",
+                    "year": "09-2021 - 09-2022"
+                },
+                "3": {
+                    "title": "UI Developer",
+                    "company": "Amopa Solutions, Bengaluru",
+                    "description": "Worked as a Frontend Developer Intern and developed dynamic, user-friendly, and interactive websites using Angular.",
+                    "year": "12-2020 - 05-2021"
+                },
+                "4": {
+                    "title": "Intern",
+                    "company": "Varidhi Technologies, Bengaluru",
+                    "description": "Industrial internship focused on learning industrial criteria involved in manufacturing and production of PCB boards and important techniques involved in PCB design.",
+                    "year": "07-2019 - 08-2019"
+                }
+            } 
+        
+
   }
   

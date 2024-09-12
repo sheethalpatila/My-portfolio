@@ -35,9 +35,12 @@
     padding: 1rem;
   }
   
-  .custom-h1 {
-    font-size: 3rem;
-    margin: 0;
+  .custom-h1 { 
+    padding: 30px;
+    font-weight: bold;
+  }
+  .custom-nameTag {
+    font-size: 3rem; 
   }
   
   
