@@ -15,28 +15,28 @@ const projects = [
         title: "API Testing Tool",
         builtWith: ["React", "Material-UI"],
         builtWithLinks: ["React", "Tailwind CSS", "Material-UI"],
-        link: "https://github.com/sheethalpatila/Test-your-API"
+        link: "https://test-your-api.vercel.app"
     },
     {
         year: "2024",
         title: "JSON Comparator",
         builtWith: ["React", "Material-UI"],
         builtWithLinks: ["React", "Tailwind CSS", "Material-UI"],
-        link: "https://github.com/sheethalpatila/json-comparator"
+        link: "https://json-comparator-six.vercel.app"
     },
     {
         year: "2024",
         title: "Portfolio",
         builtWith: ["React", "Material-UI", "Tailwind CSS"],
         builtWithLinks: ["React", "Tailwind CSS", "Material-UI"],
-        link: "https://github.com/sheethalpatila/My-portfolio"
+        link: "https://sheethalpatilportfolio.vercel.app"
     },
     {
         year: "2024",
         title: "Company About Page",
         builtWith: ["React", "Material-UI", "Tailwind CSS"],
         builtWithLinks: ["React", "Tailwind CSS", "Material-UI"],
-        link: "https://github.com/sheethalpatila/company-about-page"
+        link: "https://company-about-page.vercel.app"
     },
     {
         year: "2024",
