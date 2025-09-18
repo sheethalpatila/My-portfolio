@@ -15,7 +15,7 @@
     "dmToolTip": "View in Dark Mode",
     "lmToolTip": "View in Light Mode",
     "intro1": "Hi, I am Sheethal from Bengaluru. I grew up in a small town and moved to the Silicon City of India with a dream of working in the software industry, gaining financial freedom for my family, and earning the title of Software Engineer. Like many, I soon realized it was not as easy as I thought. Thankfully, I found two amazing friends during college, and together, we navigated the challenges of becoming full-stack developers. A big thanks to the incredible YouTubers like Hitesh Choudhary, Code with Harry, and Akshay Saini, who taught students like me when expensive courses were out of reach.",
-    "intro2": "Now, after 3.5 years of facing clients, tackling new requirements, and debugging endless bugs, I can confidently call myself a software engineer. I’ve learned that no matter how tough the problem, I can solve it. If a new feature is needed, I’ll develop it; if bugs arise, I’ll fix them until they’re gone.",
+    "intro2": "Now, after 5 years of facing clients, tackling new requirements, and debugging endless bugs, I can confidently call myself a software engineer. I’ve learned that no matter how tough the problem, I can solve it. If a new feature is needed, I’ll develop it; if bugs arise, I’ll fix them until they’re gone.",
     "intro3": "Currently, I work as a Full-Stack Developer at Smart Controls India Limited, where I design, develop, and maintain scalable web and mobile applications using the MERN stack (MongoDB, Express.js, React, Node.js). With a track record of leading projects from concept to deployment, I collaborate with cross-functional teams to deliver user-centric solutions that optimize performance.",
     "projectTitel": "Project Title",
     "builtWith": "Built with",
@@ -128,4 +128,5 @@
         
 
   }
+
   
