@@ -53,6 +53,16 @@ const Skills = ({ darkMode }) => {
             title: "PostgreSQL",
             tagline: "Database",
         },
+        {
+            image: `${process.env.PUBLIC_URL}/llama.png`,
+            title: "Llama 3",
+            tagline: "Local LLM",
+        },
+        {
+            image: `${process.env.PUBLIC_URL}/ollama.png`,
+            title: "Ollama",
+            tagline: "LLM Runtime",
+        },
     ];
 
     const tools = [
@@ -67,6 +77,12 @@ const Skills = ({ darkMode }) => {
     const knowledge = [
         {
             title: "MongoDB Aggregation, Indexing, Query Optimization",
+        },
+        {
+            title: "Llama 3, Ollama, Local LLM Integration",
+        },
+        {
+            title: "Prompt Engineering, Natural Language Query Processing",
         },
         {
             title: "REST APIs, GraphQL, API Integration",
@@ -92,11 +108,10 @@ const Skills = ({ darkMode }) => {
         <section
             id="skills"
             style={{
-                backgroundImage: `url(${
-                    darkMode
-                        ? `${process.env.PUBLIC_URL}/bg1.jpg`
-                        : `${process.env.PUBLIC_URL}/blackbg.png`
-                })`,
+                backgroundImage: `url(${darkMode
+                    ? `${process.env.PUBLIC_URL}/bg1.jpg`
+                    : `${process.env.PUBLIC_URL}/blackbg.png`
+                    })`,
                 color: darkMode ? "#1a1a1a" : "#d1d1d1",
             }}
             className="backgroundImageStyle section"

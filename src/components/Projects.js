@@ -19,7 +19,15 @@ const projects = [
     {
         year: "2026",
         title: "QueryLlama Local",
-        builtWith: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
+        builtWith: [
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Ollama",
+            "Llama 3",
+            "JWT",
+        ],
         link: "#",
     },
     {
