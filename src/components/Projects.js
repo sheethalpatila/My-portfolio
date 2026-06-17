@@ -18,6 +18,12 @@ const projects = [
     },
     {
         year: "2026",
+        title: "DocPrecision – Browser-Based PDF Editor",
+        builtWith: ["React","Index DB", "Material-UI", "Without Backend"],
+        link: "https://pdf-editor-flax-seven.vercel.app",
+    },
+    {
+        year: "2026",
         title: "QueryLlama Local",
         builtWith: [
             "React",
